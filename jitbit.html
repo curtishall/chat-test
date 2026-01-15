@@ -1,0 +1,18 @@
+<script>
+
+	//All settings are OPTIONAL. Remove them to use the defaults
+	var hdWidget = {
+		categoryId: 42, //pre-selected category in the widget. Get the ID from the admin panel
+		hideCategory: 0, //"1" to hide category select box, works only if you pass categoryId
+		autoShow: 0, //auto show the widget after X seconds. "0" to disable auto showing
+		email: "", //prefilled user email if you already know it in your app
+		showKbArticles: 1, //show suggested KB articles after user opens new chat
+		bgColor: "#3b82f6", //color of the widget,
+		hidden: false, //hide the widget button (if you want to trigger show/hide programatically)
+		position: "right", //position of the button: "left" or "right" at the bottom
+	};
+	
+	//you can also open or close the widget programmatically
+	//by calling hdWidget.toggleWidget() anywhere in your code
+</script>
+<script src='https://cadmus.jitbit.com/helpdesk/js/support-widget-light.js' defer></script>
